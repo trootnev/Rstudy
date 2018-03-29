@@ -13,3 +13,4 @@ new_case <- data.frame(Sepal.Length = 5.1, Sepal.Width = 3.5, Petal.Length = 1.4
 new_case
 data.frame(actual = new_case$Specie,
            predict = predict(mLDA, new_case[, 1:4])$class)
+#testcomment
